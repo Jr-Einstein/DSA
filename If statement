@@ -1,0 +1,20 @@
+//ifelse,if,else if , else(if) elif 
+
+//LECTURE-3
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n,m;
+    cout<<"Enter Your First Number :"<<endl;
+    cin>>n;
+    cout<<"Enter Your Second Number :"<<endl;
+    cin>>m;
+    if(n>m){
+        cout<<"First Number is greater than Second Number";
+    }
+    if(m>n){
+        cout<<"Second Number is greater than First Number";
+    }
+}
